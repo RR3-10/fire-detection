@@ -1,0 +1,15 @@
+# Python environment (huge, and each computer creates its own)
+.venv/
+__pycache__/
+
+# Generated output and test media
+*.mp4
+alert_*.jpg
+fire_detected.jpg
+photo_detected.jpg
+runs/
+
+# Pretrained weights (downloaded automatically) - but KEEP best.pt
+yolov8n.pt
+yolo11n.pt
+yolo26n.pt
